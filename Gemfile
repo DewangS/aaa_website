@@ -18,9 +18,9 @@ group :test do
 		gem 'turn', :require => false
 end
 
-#group :production do
-#		gem 'pg'
-#end
+group :production do
+		gem 'pg'
+end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
